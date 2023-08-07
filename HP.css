@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: #FCFAFB;
+}
+
+div.name {
+    margin-top: 5vh;
+    font-family: "Dawning of a New Day";
+    font-size: 54px;
+    color: #729B79;
+}
+
+div.quote {
+    margin-bottom: 3vh;
+    font-family: "Dawning of a New Day";
+    font-size: 20px;
+    color: #84A887;
+}
+
+div.bar {
+    font-family: "Baskervville";
+    color: #475B63;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 11px 20px;
+}
+
+div.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 15vw 5vh 15vw;
+    width: 70vw;
+    font-family: "Baskervville";
+    color: #475B63;
+}
+
+div.reviews {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.about-us {
+    flex-basis: 25%;
+    align-self: flex-start;
+    border: 1px solid #475B63;
+}
+
+div.footing {
+    position: fixed;
+    bottom: 0;
+    height: 8vh;
+    width: 100%;
+    text-align: center;
+    line-height: 8vh;
+    font-family: "Baskervville";
+    font-size: 18px;
+    color: #475B63;
+    background-color: #BACDB0;
+}
+
+@media screen and (max-width: 850px) {
+    div.footing {
+        position: static;
+    }
+}

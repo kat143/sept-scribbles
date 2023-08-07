@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: #FCFAFB;
+}
+
+div.name {
+    margin-top: 5vh;
+    font-family: "Dawning of a New Day";
+    font-size: 54px;
+    color: #729B79;
+}
+
+div.quote {
+    margin-bottom: 3vh;
+    font-family: "Dawning of a New Day";
+    font-size: 20px;
+    color: #84A887;
+}
+
+div.bar {
+    font-family: "Baskervville";
+    color: #475B63;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 11px 20px;
+}
+
+div.review {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    margin: 5vh 15vw;
+    width: 70vw;
+}
+
+div.content {
+    flex-basis: 65%;
+    text-align: left;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: "Baskervville";
+    color: #475B63;
+}
+
+div.footing {
+    height: 8vh;
+    width: 100%;
+    text-align: center;
+    line-height: 8vh;
+    font-family: "Baskervville";
+    font-size: 18px;
+    color: #475B63;
+    background-color: #BACDB0;
+}
